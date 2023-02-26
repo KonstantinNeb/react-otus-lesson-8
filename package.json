@@ -1,0 +1,29 @@
+{
+  "name": "react-otus-lesson-8",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx jest",
+    "lint": "eslint . --ext .ts",
+    "lint-fix": "eslint . --fix --ext .ts"
+  },
+  "keywords": [],
+  "author": "KonstantinN",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jest": "^28.1.1",
+    "@types/ramda": "^0.28.14",
+    "@typescript-eslint/eslint-plugin": "^5.27.1",
+    "eslint": "^8.17.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "jest": "^28.1.1",
+    "prettier": "^2.6.2",
+    "ts-jest": "^28.0.4",
+    "typescript": "^4.7.3"
+  },
+  "dependencies": {
+    "ramda": "^0.28.0"
+  }
+}
